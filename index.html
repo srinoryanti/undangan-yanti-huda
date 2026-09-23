@@ -360,7 +360,6 @@ body.dibuka .float{opacity:1;visibility:visible}
       <button type="button"><div class="foto-ph">Y<img class="foto-asli" src="aset/foto/yanti.jpeg" style="object-position:center 85%" alt="Yanti" onerror="this.remove()" /></div></button>
       <button type="button"><div class="foto-ph">YH<img class="foto-asli" src="aset/foto/prewed-2.jpeg" style="object-position:center 35%" alt="Yanti dan Huda" onerror="this.remove()" /></div></button>
     </div>
-    <p class="galeri-note">📷 Galeri 8 foto + video opsional. Taruh foto di <b>aset/foto/</b> (galeri-1..8.webp) lalu ganti kotak di atas dengan tag &lt;img&gt;. Isi <b>CONFIG.youtube</b> untuk menampilkan video.</p>
   </section>
 
   <!-- ================= COUNTDOWN ================= -->
@@ -382,7 +381,6 @@ body.dibuka .float{opacity:1;visibility:visible}
     <p class="judul-script reveal" style="color:#fff">Story</p>
     <div class="story__foto reveal"><div class="foto-ph">YH<img class="foto-asli" src="aset/foto/prewed-putih.jpeg" alt="Yanti dan Huda" onerror="this.onerror=null;this.src='aset/foto/foto-utama.png'" /></div></div>
     <div id="daftar-story"></div>
-    <p class="galeri-note" style="background:transparent;border-color:rgba(255,255,255,.3);color:rgba(255,255,255,.6)">💌 Cerita contoh — edit di <b>CONFIG.story</b>.</p>
   </section>
 
   <!-- ================= GIFT ================= -->
@@ -490,7 +488,7 @@ const CONFIG = {
   igYanti: "",      // contoh: "https://instagram.com/nama_yanti"
   igHuda: "",       // contoh: "https://instagram.com/nama_huda"
   youtube: "",      // contoh ID video: "jfKfPfyJRdk" — kosong = video disembunyikan
-  music: "",        // contoh: "aset/musik.mp3" — kosong = tombol musik disembunyikan
+  music: "aset/musik.mp3", // backsound piano — tombol muncul + autoplay saat undangan dibuka
   story: [
     { judul: "Awal Pertemuan", tanggal: "2022", isi: "Atas izin Allah, dua hati yang tak pernah saling kenal dipertemukan dalam sebuah momen sederhana yang justru menjadi awal dari segalanya." },
     { judul: "Menjalin Kasih", tanggal: "2024", isi: "Seiring berjalannya waktu, kebersamaan menumbuhkan keyakinan. Dengan niat ibadah, kami memutuskan melangkah ke jenjang yang lebih serius." },
